@@ -94,8 +94,8 @@ function runAlgo_Callback(hObject, eventdata, handles)
 % hObject    handle to runAlgo (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
-cd ''#<- ADD your training Images path in the quotes
-filenames = dir('');#<- ADD your training Images path in the quotes
+cd '';%<- ADD your training Images path in the quotes
+filenames = dir('');%<- ADD your training Images path in the quotes
 global testvect;
 filenames(1:2,:)=[]
 % reading files from directory and converting them in a column vector and
